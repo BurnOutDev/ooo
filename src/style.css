@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  user-select: none;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.message-content {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.message {
+  font-family: "Press Start 2P", cursive;
+  font-size: 2.5vw;
+  color: red;
+  cursor: pointer;
+}
+
+.message.small {
+  font-size: 1.5vw;
+}
+
+.score-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: white;
+  padding-top: 32px;
+}
+
+.current-score-value {
+  font-size: 42px;
+  font-family: "Press Start 2P", cursive;
+}
+
+.current-score-label {
+  font-size: 24px;
+  font-family: "Press Start 2P", cursive;
+  align-self: center;
+  padding-right: 16px;
+}
+
+table td {
+  cursor: pointer;
+}
